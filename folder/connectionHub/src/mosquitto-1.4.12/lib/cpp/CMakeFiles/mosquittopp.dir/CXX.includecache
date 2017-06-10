@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/connectionHub/src/mosquitto-1.4.12/lib/cpp/mosquittopp.cpp
+cstdlib
+-
+mosquitto.h
+-
+mosquittopp.h
+-
+
+lib/cpp/mosquittopp.h
+cstdlib
+-
+mosquitto.h
+-
+time.h
+-
+
+lib/mosquitto.h
+stdbool.h
+-
+

@@ -1,0 +1,4 @@
+IpVersion 4
+
+Interface "wlan1"{
+}

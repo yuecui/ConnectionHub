@@ -1,0 +1,3 @@
+/home/rpi2/Desktop/connectionHub/CMakeFiles/edit_cache.dir
+/home/rpi2/Desktop/connectionHub/CMakeFiles/rebuild_cache.dir
+/home/rpi2/Desktop/connectionHub/CMakeFiles/connectionHub.dir
