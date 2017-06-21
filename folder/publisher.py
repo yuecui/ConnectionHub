@@ -124,7 +124,7 @@ if __name__ == "__main__":
 	p= multiprocessing.Process(target=hxm.run, args=(put_conn,))
 	p.start()
 	while True:
-		client.publish("topic",get_conn.recv())
+		client.publish("heart",get_conn.recv())
 	p.join() 
 	client.loop_forever()
 	

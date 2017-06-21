@@ -32,7 +32,7 @@ int main(int argc, char *argv[]){
 
 	int sockfd, newsockfd, portno;
 	socklen_t clilen;
-	char buffer[256];
+	char buffer[3000];
 	int n;
 	struct sockaddr_in serv_addr, cli_addr;
 

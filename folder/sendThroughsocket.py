@@ -123,7 +123,7 @@ if __name__ == "__main__":
 	p= multiprocessing.Process(target=hxm.run, args=(put_conn,))
 	p.start()
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-	s.connect(("127.0.0.1", 10011))
+	s.connect(("127.0.0.1", 10020))
 	while True:
 		s.send(get_conn.recv())
 		

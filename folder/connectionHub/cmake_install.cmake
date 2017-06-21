@@ -1,4 +1,4 @@
-# Install script for directory: /home/rpi2/Desktop/connectionHub
+# Install script for directory: /home/rpi2/Desktop/ConnectionHub/folder/connectionHub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rpi2/Desktop/connectionHub/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
