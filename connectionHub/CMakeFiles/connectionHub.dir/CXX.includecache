@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/rpi2/Desktop/connectionHub/Communicator.cpp
+/home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.cpp
 iostream
 -
 Communicator.h
-/home/rpi2/Desktop/connectionHub/Communicator.h
+/home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.h
 
-/home/rpi2/Desktop/connectionHub/Communicator.h
+/home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.h
 mosquittopp.h
 -
 string.h
 -
 
-/home/rpi2/Desktop/connectionHub/test.cpp
+/home/yue/Desktop/ConnectionHub/folder/connectionHub/test.cpp
 iostream
 -
 unistd.h
@@ -31,6 +31,8 @@ sys/types.h
 -
 sys/socket.h
 -
+arpa/inet.h
+-
 netinet/in.h
 -
 mosquittopp.h
@@ -38,7 +40,7 @@ mosquittopp.h
 mosquitto.h
 -
 Communicator.h
-/home/rpi2/Desktop/connectionHub/Communicator.h
+/home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.h
 
 /usr/local/include/mosquitto.h
 stdbool.h

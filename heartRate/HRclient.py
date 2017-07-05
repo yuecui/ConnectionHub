@@ -1,14 +1,15 @@
 import paho.mqtt.client as mqtt
 from datetime import datetime
 from time import strftime
-
+print "This program is used for accepting heart rate sensor data"
 IP_Address = raw_input("Enter the host's IP:")
+TOPIC = raw_input("Enter the topic:")
 # The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, rc):
     print("Connected with result code "+str(rc))
     # Subscribing in on_connect() means that if we lose the connection and
     # reconnect then subscriptions will be renewed.
-    client.subscribe("topic")
+    client.subscribe(TOPIC)
 
 # The callback for when a PUBLISH message is received from the server.
 def on_message(client, userdata, msg):

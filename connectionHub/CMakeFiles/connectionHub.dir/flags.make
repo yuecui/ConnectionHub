@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rpi2/Desktop/connectionHub/src/mosquitto-1.4.12/lib/cpp -I/usr/local/include 
+CXX_INCLUDES = -I/home/yue/Desktop/ConnectionHub/folder/connectionHub/src/mosquitto-1.4.12/lib/cpp -I/usr/local/include 
 
