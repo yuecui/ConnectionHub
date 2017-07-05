@@ -5,17 +5,13 @@ import time
 import paho.mqtt.client as mqtt
 from datetime import datetime
 from time import strftime
-<<<<<<< HEAD:audio/subscriber.py
 CHUNK = 1024
 CHANNELS = 1
 RATE = 8000
 WIDTH = 2
 print "This program is used for accepting audio data"
-IP_Address = raw_input("Enter the host address:")
-=======
 
 IP_Address = raw_input("Enter the host's IP:")
->>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:mqtt_client.py
 TOPIC = raw_input("Enter the topic:")
 # The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, rc):
