@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD:connectionHub/Makefile
 CMAKE_SOURCE_DIR = /home/yue/Desktop/ConnectionHub/folder/connectionHub
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/yue/Desktop/ConnectionHub/folder/connectionHub
+=======
+CMAKE_SOURCE_DIR = /home/rpi2/Desktop/ConnectionHub/folder/connectionHub
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/rpi2/Desktop/ConnectionHub/folder/connectionHub
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/Makefile
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +87,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD:connectionHub/Makefile
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles /home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles 0
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/Makefile
 .PHONY : all
 
 # The main clean target

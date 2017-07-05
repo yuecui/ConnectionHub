@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/connectionHub.dir/test.cpp.o CMakeFiles/connectionHub.dir/Communicator.cpp.o  -o connectionHub  -L/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/src/mosquitto-1.4.12/lib/cpp  -L/usr/local/lib -rdynamic -lmosquittopp -Wl,-rpath,/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/src/mosquitto-1.4.12/lib/cpp:/usr/local/lib 

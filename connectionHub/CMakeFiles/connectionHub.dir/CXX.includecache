@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD:connectionHub/CMakeFiles/connectionHub.dir/CXX.includecache
 /home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.cpp
 iostream
 -
@@ -13,12 +14,25 @@ Communicator.h
 /home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.h
 
 /home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.h
+=======
+/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/Communicator.cpp
+iostream
+-
+Communicator.h
+/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/Communicator.h
+
+/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/Communicator.h
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/connectionHub.dir/CXX.includecache
 mosquittopp.h
 -
 string.h
 -
 
+<<<<<<< HEAD:connectionHub/CMakeFiles/connectionHub.dir/CXX.includecache
 /home/yue/Desktop/ConnectionHub/folder/connectionHub/test.cpp
+=======
+/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/test.cpp
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/connectionHub.dir/CXX.includecache
 iostream
 -
 unistd.h
@@ -40,7 +54,11 @@ mosquittopp.h
 mosquitto.h
 -
 Communicator.h
+<<<<<<< HEAD:connectionHub/CMakeFiles/connectionHub.dir/CXX.includecache
 /home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.h
+=======
+/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/Communicator.h
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/connectionHub.dir/CXX.includecache
 
 /usr/local/include/mosquitto.h
 stdbool.h

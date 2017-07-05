@@ -14,6 +14,7 @@ import multiprocessing
 DEVICE_NAME = "HXM"
 LOG = logging.getLogger("hxm")
 HOST_IS_DOWN_SIGNATURE = "Host is down"
+IP_Address = raw_input("Enter the host's IP:")
 
 
 class HXM(object):
@@ -115,22 +116,17 @@ class HXMThread(threading.Thread):
 
 if __name__ == "__main__":
 	logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
-	#client = mqtt.Client()
-	#client.connect(IP_Address, 1883, 60)	
+	client = mqtt.Client()
+	client.connect(IP_Address, 1883, 60)	
 	queue = multiprocessing.Queue()
 	hxm = HXM()
 	put_conn, get_conn = multiprocessing.Pipe()
 	p= multiprocessing.Process(target=hxm.run, args=(put_conn,))
 	p.start()
-	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-	s.connect(("127.0.0.1", 10020))
 	while True:
-		s.send(get_conn.recv())
-		
-	#while True:
-		#client.publish("topic",get_conn.recv())
-	#p.join() 
-	#client.loop_forever()
+		client.publish("heart",get_conn.recv())
+	p.join() 
+	client.loop_forever()
 	
 
 	

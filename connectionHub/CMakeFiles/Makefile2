@@ -54,10 +54,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD:connectionHub/CMakeFiles/Makefile2
 CMAKE_SOURCE_DIR = /home/yue/Desktop/ConnectionHub/folder/connectionHub
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/yue/Desktop/ConnectionHub/folder/connectionHub
+=======
+CMAKE_SOURCE_DIR = /home/rpi2/Desktop/ConnectionHub/folder/connectionHub
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/rpi2/Desktop/ConnectionHub/folder/connectionHub
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/Makefile2
 
 #=============================================================================
 # Target rules for target CMakeFiles/connectionHub.dir
@@ -66,7 +73,11 @@ CMAKE_BINARY_DIR = /home/yue/Desktop/ConnectionHub/folder/connectionHub
 CMakeFiles/connectionHub.dir/all:
 	$(MAKE) -f CMakeFiles/connectionHub.dir/build.make CMakeFiles/connectionHub.dir/depend
 	$(MAKE) -f CMakeFiles/connectionHub.dir/build.make CMakeFiles/connectionHub.dir/build
+<<<<<<< HEAD:connectionHub/CMakeFiles/Makefile2
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles --progress-num=1,2,3 "Built target connectionHub"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles --progress-num=1,2,3 "Built target connectionHub"
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/Makefile2
 .PHONY : CMakeFiles/connectionHub.dir/all
 
 # Include target in all.
@@ -76,9 +87,15 @@ all: CMakeFiles/connectionHub.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/connectionHub.dir/rule: cmake_check_build_system
+<<<<<<< HEAD:connectionHub/CMakeFiles/Makefile2
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/connectionHub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/connectionHub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles 0
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/Makefile2
 .PHONY : CMakeFiles/connectionHub.dir/rule
 
 # Convenience name for target.

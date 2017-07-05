@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD:connectionHub/CMakeFiles/connectionHub.dir/build.make
 CMAKE_SOURCE_DIR = /home/yue/Desktop/ConnectionHub/folder/connectionHub
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/yue/Desktop/ConnectionHub/folder/connectionHub
+=======
+CMAKE_SOURCE_DIR = /home/rpi2/Desktop/ConnectionHub/folder/connectionHub
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/rpi2/Desktop/ConnectionHub/folder/connectionHub
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/connectionHub.dir/build.make
 
 # Include any dependencies generated for this target.
 include CMakeFiles/connectionHub.dir/depend.make
@@ -59,6 +66,7 @@ include CMakeFiles/connectionHub.dir/flags.make
 
 CMakeFiles/connectionHub.dir/test.cpp.o: CMakeFiles/connectionHub.dir/flags.make
 CMakeFiles/connectionHub.dir/test.cpp.o: test.cpp
+<<<<<<< HEAD:connectionHub/CMakeFiles/connectionHub.dir/build.make
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/connectionHub.dir/test.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/connectionHub.dir/test.cpp.o -c /home/yue/Desktop/ConnectionHub/folder/connectionHub/test.cpp
 
@@ -69,6 +77,18 @@ CMakeFiles/connectionHub.dir/test.cpp.i: cmake_force
 CMakeFiles/connectionHub.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/connectionHub.dir/test.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yue/Desktop/ConnectionHub/folder/connectionHub/test.cpp -o CMakeFiles/connectionHub.dir/test.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/connectionHub.dir/test.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/connectionHub.dir/test.cpp.o -c /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/test.cpp
+
+CMakeFiles/connectionHub.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/connectionHub.dir/test.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/test.cpp > CMakeFiles/connectionHub.dir/test.cpp.i
+
+CMakeFiles/connectionHub.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/connectionHub.dir/test.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/test.cpp -o CMakeFiles/connectionHub.dir/test.cpp.s
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/connectionHub.dir/build.make
 
 CMakeFiles/connectionHub.dir/test.cpp.o.requires:
 
@@ -83,6 +103,7 @@ CMakeFiles/connectionHub.dir/test.cpp.o.provides.build: CMakeFiles/connectionHub
 
 CMakeFiles/connectionHub.dir/Communicator.cpp.o: CMakeFiles/connectionHub.dir/flags.make
 CMakeFiles/connectionHub.dir/Communicator.cpp.o: Communicator.cpp
+<<<<<<< HEAD:connectionHub/CMakeFiles/connectionHub.dir/build.make
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/connectionHub.dir/Communicator.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/connectionHub.dir/Communicator.cpp.o -c /home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.cpp
 
@@ -93,6 +114,18 @@ CMakeFiles/connectionHub.dir/Communicator.cpp.i: cmake_force
 CMakeFiles/connectionHub.dir/Communicator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/connectionHub.dir/Communicator.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.cpp -o CMakeFiles/connectionHub.dir/Communicator.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/connectionHub.dir/Communicator.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/connectionHub.dir/Communicator.cpp.o -c /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/Communicator.cpp
+
+CMakeFiles/connectionHub.dir/Communicator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/connectionHub.dir/Communicator.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/Communicator.cpp > CMakeFiles/connectionHub.dir/Communicator.cpp.i
+
+CMakeFiles/connectionHub.dir/Communicator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/connectionHub.dir/Communicator.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/Communicator.cpp -o CMakeFiles/connectionHub.dir/Communicator.cpp.s
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/connectionHub.dir/build.make
 
 CMakeFiles/connectionHub.dir/Communicator.cpp.o.requires:
 
@@ -117,7 +150,11 @@ connectionHub: CMakeFiles/connectionHub.dir/test.cpp.o
 connectionHub: CMakeFiles/connectionHub.dir/Communicator.cpp.o
 connectionHub: CMakeFiles/connectionHub.dir/build.make
 connectionHub: CMakeFiles/connectionHub.dir/link.txt
+<<<<<<< HEAD:connectionHub/CMakeFiles/connectionHub.dir/build.make
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable connectionHub"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable connectionHub"
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/connectionHub.dir/build.make
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/connectionHub.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +172,10 @@ CMakeFiles/connectionHub.dir/clean:
 .PHONY : CMakeFiles/connectionHub.dir/clean
 
 CMakeFiles/connectionHub.dir/depend:
+<<<<<<< HEAD:connectionHub/CMakeFiles/connectionHub.dir/build.make
 	cd /home/yue/Desktop/ConnectionHub/folder/connectionHub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yue/Desktop/ConnectionHub/folder/connectionHub /home/yue/Desktop/ConnectionHub/folder/connectionHub /home/yue/Desktop/ConnectionHub/folder/connectionHub /home/yue/Desktop/ConnectionHub/folder/connectionHub /home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles/connectionHub.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/rpi2/Desktop/ConnectionHub/folder/connectionHub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpi2/Desktop/ConnectionHub/folder/connectionHub /home/rpi2/Desktop/ConnectionHub/folder/connectionHub /home/rpi2/Desktop/ConnectionHub/folder/connectionHub /home/rpi2/Desktop/ConnectionHub/folder/connectionHub /home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles/connectionHub.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/connectionHub.dir/build.make
 .PHONY : CMakeFiles/connectionHub.dir/depend
 

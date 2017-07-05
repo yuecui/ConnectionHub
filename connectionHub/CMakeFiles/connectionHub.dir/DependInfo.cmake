@@ -4,8 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD:connectionHub/CMakeFiles/connectionHub.dir/DependInfo.cmake
   "/home/yue/Desktop/ConnectionHub/folder/connectionHub/Communicator.cpp" "/home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles/connectionHub.dir/Communicator.cpp.o"
   "/home/yue/Desktop/ConnectionHub/folder/connectionHub/test.cpp" "/home/yue/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles/connectionHub.dir/test.cpp.o"
+=======
+  "/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/Communicator.cpp" "/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles/connectionHub.dir/Communicator.cpp.o"
+  "/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/test.cpp" "/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/CMakeFiles/connectionHub.dir/test.cpp.o"
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/connectionHub.dir/DependInfo.cmake
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

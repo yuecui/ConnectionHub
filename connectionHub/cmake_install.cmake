@@ -1,4 +1,8 @@
+<<<<<<< HEAD:connectionHub/cmake_install.cmake
 # Install script for directory: /home/yue/Desktop/ConnectionHub/folder/connectionHub
+=======
+# Install script for directory: /home/rpi2/Desktop/ConnectionHub/folder/connectionHub
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/cmake_install.cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +44,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD:connectionHub/cmake_install.cmake
 file(WRITE "/home/yue/Desktop/ConnectionHub/folder/connectionHub/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/cmake_install.cmake
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

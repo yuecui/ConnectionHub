@@ -6,5 +6,9 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
+<<<<<<< HEAD:connectionHub/CMakeFiles/connectionHub.dir/flags.make
 CXX_INCLUDES = -I/home/yue/Desktop/ConnectionHub/folder/connectionHub/src/mosquitto-1.4.12/lib/cpp -I/usr/local/include 
+=======
+CXX_INCLUDES = -I/home/rpi2/Desktop/ConnectionHub/folder/connectionHub/src/mosquitto-1.4.12/lib/cpp -I/usr/local/include 
+>>>>>>> 9250e7697ec5c2eef6c903796035e5fee91fb3e7:folder/connectionHub/CMakeFiles/connectionHub.dir/flags.make
 
